@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::API
-  before_action :authenticate
+  # before_action :authenticate
 
   def current_user
     @current_user ||= User.find(session[:user_id]) if session[:user_id]
