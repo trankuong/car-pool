@@ -20,6 +20,15 @@ gem 'bcrypt', '~> 3.1.7'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
+<<<<<<< Updated upstream
+=======
+# Use EmberCLI for the Frontend
+gem "ember-cli-rails"
+
+# Json Api serializers
+gem "active_model_serializers", "~> 0.8.0"
+
+>>>>>>> Stashed changes
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri

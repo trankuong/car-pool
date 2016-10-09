@@ -5,6 +5,6 @@ class Request < ApplicationRecord
   belongs_to :driver, class_name: :User
 
   def as_json (options = {})
-    super(options.merge(except: :password_digest, include: [:user, :driver]))
+    super(options).merge({ user: user.as_json }).merge({ driver: driver.as_json })
   end
 end
