@@ -7,10 +7,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('requests', function() {
-    this.route('new');
-    this.route('request', { path: ':request_id' });
-  });
+  this.route('requests');
+  this.route('request', { path: 'requests/:request_id' });
+  this.route('new_request');
   this.route('sign-in');
 });
 

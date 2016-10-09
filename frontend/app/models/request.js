@@ -1,9 +1,9 @@
 import DS from 'ember-data';
 
 export default DS.Model.extend({
-  user: DS.belongsTo('user'),
-  driver: DS.belongsTo('user'),
   status: DS.attr('string'),
-  // start: DS.attr(),
-  // end: DS.attr()
+  xI: DS.attr('number'),
+  yI: DS.attr('number'),
+  xF: DS.attr('number'),
+  yF: DS.attr('number')
 });
