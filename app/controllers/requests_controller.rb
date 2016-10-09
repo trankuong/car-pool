@@ -1,4 +1,5 @@
 class RequestsController < ApplicationController
+  # before_action :authenticate
   before_action :set_request, only: [:show, :update, :destroy]
 
   # GET /requests
@@ -46,6 +47,6 @@ class RequestsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def request_params
-      params.fetch(:request, {})
+      params.fetch(:request, {}).permit(:user_id, :driver_id, :status, :start, :end)
     end
 end
