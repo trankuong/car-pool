@@ -1,0 +1,64 @@
+/* Your CSS goes here */
+body {
+	/*background-color: #29b6f6;*/
+	background-image: url("../images/back2.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+#app_name {
+	font-size: 38px;
+	color: #ff9800;
+}
+
+#button {
+	margin-top: 60px;
+	height: 15vh;
+	width: 20vw;
+	background-color: #29b6f6;
+	color: #ff9800;
+	font-size: 25px;
+	font-weight: bold;
+	border-width: 2.5px;
+	border-style: solid;
+	border-color: #ff9800;
+}
+
+#button:hover {
+	cursor: pointer;
+}
+
+#main {
+  text-align: center;
+}
+
+#close {
+  position: absolute;
+  top: 90px;
+  right: 0;
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+#close img {
+  width: 100%;
+}
+
+.fa {
+	padding: 6px;
+	margin-left: 4px;
+}
+
+.footer {
+  color: #ff9800;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #29b6f6;
+  text-align: center;
+}

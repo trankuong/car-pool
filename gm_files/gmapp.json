@@ -1,0 +1,12 @@
+{
+  "name":"Carpooler",
+  "id":"99808881",
+  "version": "0.1.0",
+  "src": "src",
+  "dist": "dist",
+  "main": "index.html",
+  "icon": "Icon.png",
+  "developer": "Kuong Tran",
+  "category":"General",
+  "type":"RemoteHigh"
+}
