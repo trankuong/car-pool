@@ -1,0 +1,31 @@
+<nav class="light-blue lighten-1" role="navigation">
+  <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Car Pool</a>
+    <ul class="right hide-on-med-and-down">
+      <li>
+        Signed in as
+        <a href="#">
+          <b>Profile</b>
+        </a>
+      </li>
+    </ul>
+
+    <ul id="nav-mobile" class="side-nav">
+      <li>
+        <a href="#">Profile</a>
+      </li>
+    </ul>
+    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+  </div>
+</nav>
+{{outlet}}
+<footer class="page-footer orange">
+  <div class="footer-copyright">
+    {{#md-copyright text='The Hack Team'
+      startYear=2016
+      class='white-text'}}
+        <a class="white-text right" href="https://mhacks.org/">
+          MHacks
+        </a>
+    {{/md-copyright}}
+  </div>
+</footer>
